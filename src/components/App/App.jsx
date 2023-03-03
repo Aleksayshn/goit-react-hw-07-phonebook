@@ -31,7 +31,7 @@ export const App = () => {
       {!error ? (
         <ContactList />
       ) : (
-        <Notification message="Ooops! Something went wrong" />
+        <Notification message="Ooops! Something went wrong..." />
       )}
     </Container>
   );
